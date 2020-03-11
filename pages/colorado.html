@@ -1,0 +1,15 @@
+---
+layout: base.liquid
+---
+
+<h1>Rocky Mountain Region</h1>
+<p>
+  Based in Littlton CO and serving CO, WY, NM, and NE.
+</p>
+<p>
+  Products we deliver in this region
+</p>
+{% for product in collections.co %}
+<h3><a href="{{ product.url }}">{{ product.data.pageTitle }}</a></h3>
+<p>{{ product.data.slug }}</p>
+{% endfor %}
