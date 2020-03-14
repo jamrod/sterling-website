@@ -1,0 +1,17 @@
+<header class="flex-container-row space">
+    <a href="/">
+        <img alt="Sterling Logo" src="/assets/img/SterlingLogo.png"/>
+        <!-- <h1>Sterling Communication Technologies</h1> -->
+    </a>
+    <div id="top-nav">
+        {% for nav in collections.top-nav %}
+            {% if page.url == nav.url %}
+                <a href="{{nav.url}}" class="top-nav-item selected">{{nav.data.title}}</a>
+            {% else %}
+                <a href="{{nav.url}}" class="top-nav-item">{{nav.data.title}}</a>
+            {% endif %}
+        {% endfor %}
+        <!-- <a class="top-nav-item" href="/pages/gulf-coast" >Gulf Coast Region</a>
+        <a class="top-nav-item" href="/pages/colorado" >Rocky Mountain Region</a> -->
+    </div>
+</header>

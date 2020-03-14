@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sterling Communication Technologies</title>
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Merriweather|Oswald&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body class="flex-container-column centered">
-    <header>
-      <a href="/"><h1>Sterling Communication Technologies</h1></a>
-    </header>
-    {% include global-nav.html %}
+    <head>
+        <meta charset="UTF-8"/>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+        <title>Sterling Communication Technologies</title>
+        <link href="/assets/css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Oswald&display=swap" rel="stylesheet"/>
+    </head>
 
-    <div class="container flex-container-column">
-      {{ content }}
-    </div>
+    <body class="flex-container-column centered">
+        {% include header.liquid %}
+        {% include global-nav.html %}
 
-    {% include footer.html %}
-  </body>
+        <div class="container flex-container-column">
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+        <script src="/assets/script.js"></script>
+    </body>
 </html>
