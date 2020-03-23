@@ -1,0 +1,20 @@
+<div class="flex-container-row nav">
+    {% if page.url contains "GC" %}
+        {% for nav in collections.gc-nav %}
+            {% if page.url == nav.url %}
+                <a href="{{nav.url}}" class="nav-item select">{{nav.data.title}}</a>
+            {% else %}
+                <a href="{{nav.url}}" class="nav-item">{{nav.data.title}}</a>
+            {% endif %}
+        {% endfor %}
+    {% elsif page.url contains "RM" %}
+        {% for nav in collections.rm-nav %}
+            {% if page.url == nav.url %}
+                <a href="{{nav.url}}" class="nav-item select">{{nav.data.title}}</a>
+            {% else %}
+                <a href="{{nav.url}}" class="nav-item">{{nav.data.title}}</a>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+
+</div>

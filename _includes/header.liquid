@@ -5,7 +5,7 @@
     </a>
     <div id="top-nav">
         {% for nav in collections.top-nav %}
-            {% if page.url == nav.url %}
+            {% if page.url contains nav.data.flag %}
                 <a href="{{nav.url}}" class="top-nav-item selected">{{nav.data.title}}</a>
             {% else %}
                 <a href="{{nav.url}}" class="top-nav-item">{{nav.data.title}}</a>
