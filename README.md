@@ -43,3 +43,18 @@ runs on port 8080
   - Structured Cabling
   - Telephone and Radio Paging
   - TV Distribution
+
+## Layout
+
+-index / landing page - pick Gulf Coast or Rocky Mountain
+
+- Region
+  -Rocky Mountain
+  -About, /RM/pages/About
+  -Contact, /RM/pages/Contact
+  -Products, /RM/pages/Products
+  -Product Pages, /RM/pages/product
+  -Gulf Coast
+  -About, /GC/pages/About
+  -Contact, /GC/pages/Contact
+  -Products, /GC/pages/Products

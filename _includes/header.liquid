@@ -6,9 +6,9 @@
     <div id="top-nav">
         {% for nav in collections.top-nav %}
             {% if page.url contains nav.data.flag %}
-                <a href="{{nav.url}}" class="top-nav-item selected">{{nav.data.title}}</a>
+                <a href="{{nav.url}}" class="top-nav-item selected">{{nav.data.alttitle}}</a>
             {% else %}
-                <a href="{{nav.url}}" class="top-nav-item">{{nav.data.title}}</a>
+                <a href="{{nav.url}}" class="top-nav-item">{{nav.data.alttitle}}</a>
             {% endif %}
         {% endfor %}
         <!-- <a class="top-nav-item" href="/pages/gulf-coast" >Gulf Coast Region</a>

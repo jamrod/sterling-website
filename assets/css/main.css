@@ -41,7 +41,7 @@ h1 h2 {
 }
 
 a {
-  color: black;
+  color: rgb(75, 23, 218);
   text-decoration: none;
 }
 
@@ -50,6 +50,7 @@ a:hover {
 }
 
 header {
+  /* height: 194px; */
   background-color: white;
   background-image: linear-gradient(to right, white, lightgray);
   vertical-align: bottom;
@@ -60,11 +61,11 @@ header {
 }
 .nav {
   /* padding: 4px 0; */
-  width: 100%;
+  align-self: flex-start;
+  width: 25%;
   min-height: 25px;
   /* border-bottom: 1px solid rgb(55, 55, 55); */
-  justify-content: space-evenly;
-  background-color: white;
+  justify-content: flex-start;
 }
 
 .top-nav {
@@ -80,22 +81,54 @@ header {
   padding-bottom: 9px;
   background-color: white;
   line-height: 40px;
-  /* height: 40px; */
-  /* border-bottom: 1px solid black; */
 }
 
 .selected {
   padding-bottom: 20px;
   border-bottom: white;
-}
-
-.select {
-  padding: 0 10px;
-  background-color: lightgray;
+  color: Black;
 }
 
 .nav-item {
-  color: blue;
+  margin: 0 20px;
+  /* border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black; */
+}
+
+.select {
+  color: black;
+  background-color: white;
+  /* background-color: rgb(250, 250, 250); */
+  /* border-radius: 0 0 20px 20px; */
+  /* border-right: 1px solid black;
+  border-left: 1px solid black; */
+  border-bottom: 1px solid red;
+}
+
+.image-container {
+  width: 700px;
+  height: 500px;
+  margin: 20px;
+}
+
+.inner-container {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-pic {
+  width: 700px;
+  position: absolute;
+  z-index: -1;
+}
+
+.label {
+  z-index: 1;
+  color: White;
+  text-align: center;
 }
 
 .article {
@@ -108,7 +141,7 @@ header {
 
 .contact {
   min-width: 800px;
-  margin: 0 10px;
+  margin: 20px 10px;
   padding: 5px;
 }
 
@@ -125,6 +158,10 @@ header {
 .space-between {
   justify-content: space-between;
   width: 100%;
+}
+
+.about-pic-div {
+  margin: 30px 0;
 }
 
 .address-block {
