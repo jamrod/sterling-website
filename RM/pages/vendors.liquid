@@ -5,16 +5,17 @@ flag: RM
 tags: rm-nav
 date: 2020-01-01
 ---
-<!-- {% title %} -->
+
 <p>
     Based in Littlton CO and serving CO, WY, NM, and NE.
 </p>
 <p>
-    Products we deliver in this region
+    Providing service and installation excellence for these Vendors.
 </p>
-{% for product in collections.co %}
+{% for vendor in collections.co %}
     <h3>
-        <a href="{{ product.url }}">{{ product.data.pageTitle }}</a>
+        <a href="{{ vendor.url }}">{{ vendor.data.pageTitle }}</a>
     </h3>
-    <p>{{ product.data.slug }}</p>
+    <p>{{ vendor.data.slug }}</p>
+    <img src={{ vendor.data.logoLink }} alt="logo" class="logo-pic"/>
 {% endfor %}
