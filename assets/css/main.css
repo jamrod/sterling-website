@@ -3,8 +3,6 @@ body {
   max-width: 100%;
   background-color: white;
   font-family: "Merriweather", serif;
-  background-color: white;
-  /* background-image: linear-gradient(to right, white, lightgray); */
 }
 
 footer {
@@ -75,9 +73,10 @@ header {
 }
 
 .top-nav-item {
+  margin: 0 2px;
   display: inline;
   vertical-align: baseline;
-  padding: 0 20px;
+  padding: 10px 20px 0px;
   padding-bottom: 9px;
   background-color: white;
   line-height: 40px;
