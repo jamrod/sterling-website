@@ -1,6 +1,6 @@
 ---
 layout: base.liquid
-title: Vendor
+title: Vendors
 flag: RM
 tags: rm-nav
 date: 2020-01-01
@@ -12,10 +12,22 @@ date: 2020-01-01
 <p>
     Providing service and installation excellence for these Vendors.
 </p>
-{% for vendor in collections.co %}
-    <h3>
-        <a href="{{ vendor.url }}">{{ vendor.data.pageTitle }}</a>
-    </h3>
-    <p>{{ vendor.data.slug }}</p>
-    <img src={{ vendor.data.logoLink }} alt="logo" class="logo-pic"/>
-{% endfor %}
+<div class="flex-container-row space-between">
+    {% for vendor in collections.co %}
+        <a href="{{ vendor.data.link }}" class="vendor-links">
+            <div class=" vendor-container centered">
+                <div class="centered top">
+                    <h3>
+                        {{ vendor.data.pageTitle }}
+                    </h3>
+                </div>
+
+                <div class="centered">
+                    <img src={{ vendor.data.logoLink }} alt="logo" class="logo-pic"/>
+                </div>
+                <p class="bottom">{{ vendor.data.slug }}</p>
+            </div>
+        </a>
+    {% endfor %}
+
+</div>

@@ -167,10 +167,42 @@ header {
   text-align: left;
 }
 
+.vendor-container {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1fr 3fr 1fr;
+  padding: 10px;
+  height: 270px;
+}
+
+.top {
+  grid-row: 1;
+}
+
+.bottom {
+  grid-row: 3;
+}
+
+.logo-pic {
+  width: 200px;
+  max-height: 200px;
+}
+
+.vendor-links {
+  color: black;
+}
+
+.vendor-links :hover {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 500px) {
   .nav,
   #top-nav,
   footer {
     font-size: x-small;
+  }
+  .contact {
+    flex-direction: column;
   }
 }

@@ -6,7 +6,8 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
-    "debug": "DEBUG=Eleventy* eleventy"
+    "debug": "DEBUG=Eleventy* eleventy",
+    "deploy": "aws s3 sync _site/ s3://stercommtech.com"
   },
   "keywords": [],
   "author": "",
