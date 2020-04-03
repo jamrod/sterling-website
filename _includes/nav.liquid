@@ -1,20 +1,54 @@
+<div id="hamburger-nav" onclick="cycleNav()">
+    <img alt="3 line icon" src="/assets/img/3line.svg"/>
+    <div id="mobile-nav">
+        {% if page.url contains "GC" %}
+            {% for nav in collections.gc-nav %}
+                <ul>
+                    {% if page.url == nav.url %}
+                        <li>
+                            <a href="{{ nav.url }}" class="nav-item select">{{ nav.data.title }}</a>
+                        </li>
+                    {% else %}
+                        <li>
+                            <a href="{{ nav.url }}" class="nav-item">{{ nav.data.title }}</a>
+                        </li>
+                    {% endif %}
+                </ul>
+            {% endfor %}
+        {% elsif page.url contains "RM" %}
+            {% for nav in collections.rm-nav %}
+                {% if page.url == nav.url %}
+                    <li>
+                        <a href="{{ nav.url }}" class="nav-item select">{{ nav.data.title }}</a>
+                    </li>
+                {% else %}
+                    <li>
+                        <a href="{{ nav.url }}" class="nav-item">{{ nav.data.title }}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    </div>
+</div>
+
 <div class="flex-container-row nav">
     {% if page.url contains "GC" %}
         {% for nav in collections.gc-nav %}
-            {% if page.url == nav.url %}
-                <a href="{{nav.url}}" class="nav-item select">{{nav.data.title}}</a>
+            {% if
+  page.url == nav.url %}
+                <a href="{{ nav.url }}" class="nav-item select">{{ nav.data.title }}</a>
             {% else %}
-                <a href="{{nav.url}}" class="nav-item">{{nav.data.title}}</a>
+                <a href="{{ nav.url }}" class="nav-item">{{ nav.data.title }}</a>
             {% endif %}
         {% endfor %}
     {% elsif page.url contains "RM" %}
-        {% for nav in collections.rm-nav %}
+        {% for nav in
+  collections.rm-nav %}
             {% if page.url == nav.url %}
-                <a href="{{nav.url}}" class="nav-item select">{{nav.data.title}}</a>
+                <a href="{{ nav.url }}" class="nav-item select">{{ nav.data.title }}</a>
             {% else %}
-                <a href="{{nav.url}}" class="nav-item">{{nav.data.title}}</a>
+                <a href="{{ nav.url }}" class="nav-item">{{ nav.data.title }}</a>
             {% endif %}
         {% endfor %}
     {% endif %}
-
 </div>

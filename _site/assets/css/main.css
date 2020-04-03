@@ -196,7 +196,30 @@ header {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 500px) {
+#hamburger-nav {
+  visibility: hidden;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+#mobile-nav {
+  display: none;
+  background-color: rgba(250, 250, 250, 0.9);
+  position: fixed;
+  top: 222px;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  z-index: 1;
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (max-width: 800px) {
   .nav,
   #top-nav,
   footer {
@@ -204,5 +227,40 @@ header {
   }
   .contact {
     flex-direction: column;
+    min-width: 0;
+    max-width: 300px;
+    flex-wrap: wrap;
+  }
+
+  .pics {
+    width: 275px;
+    height: 200px;
+  }
+
+  .image-container {
+    width: 300px;
+    height: 195px;
+    margin: 20px;
+  }
+
+  .inner-container {
+    width: 300px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .landing-pic {
+    width: 300px;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .nav {
+    visibility: hidden;
+  }
+
+  #hamburger-nav {
+    visibility: visible;
   }
 }
