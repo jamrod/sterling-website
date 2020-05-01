@@ -6,4 +6,5 @@ tags:
   - gc
   - co
 link: "https://www.midmark.com/medical/products/rtls"
+date: 2020-05-01
 ---

@@ -6,4 +6,5 @@ tags:
   - gc
   - co
 link: "https://www.vivitekusa.com/"
+date: 2020-05-01
 ---

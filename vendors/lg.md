@@ -6,4 +6,5 @@ tags:
   - gc
   - co
 link: "https://www.lg.com/us"
+date: 2020-05-01
 ---

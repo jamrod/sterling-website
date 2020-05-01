@@ -6,4 +6,5 @@ tags:
   - gc
   - co
 link: "https://www.identicard.com/"
+date: 2020-05-01
 ---
