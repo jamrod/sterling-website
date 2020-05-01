@@ -1,7 +1,7 @@
 ---
 pageTitle: Commend
 slug: Security and Communication
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/commend/commend-logo.svg"
 tags:
   - co
   - gc

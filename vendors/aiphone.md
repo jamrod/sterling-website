@@ -1,7 +1,7 @@
 ---
 pageTitle: Aiphone
 slug: Intercom Solutions
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/Aiphone/aiphone_logo.png"
 tags:
   - gc
   - co

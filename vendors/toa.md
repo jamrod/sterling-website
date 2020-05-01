@@ -1,7 +1,7 @@
 ---
 pageTitle: TOA
 slug: Professional Sound Solutions
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/toa/toa-logo.png"
 tags:
   - gc
   - co

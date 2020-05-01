@@ -1,7 +1,7 @@
 ---
 pageTitle: LG
 slug: Life's Good
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/lg/lg-logo.jpg"
 tags:
   - gc
   - co

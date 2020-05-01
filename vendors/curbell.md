@@ -1,7 +1,7 @@
 ---
 pageTitle: Curbell Medical
 slug: Healthcare Equipment and Accessories
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/curbell/curbell-logo.png"
 tags:
   - co
   - gc

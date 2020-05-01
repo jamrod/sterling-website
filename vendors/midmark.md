@@ -1,7 +1,7 @@
 ---
 pageTitle: midmark
 slug: Real-Time Locating System
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/midmark/midmarklogo_fullcolor_notagline.png"
 tags:
   - gc
   - co

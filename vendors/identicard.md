@@ -1,7 +1,7 @@
 ---
 pageTitle: Identicard
 slug: Access Control
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/identicard/identicard-logo.png"
 tags:
   - gc
   - co

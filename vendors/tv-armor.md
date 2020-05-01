@@ -1,7 +1,7 @@
 ---
 pageTitle: TV Armor
 slug: Protect Your TV
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/tvarmor/TV-Armor-logo-protect-your-tv.png"
 tags:
   - gc
   - co

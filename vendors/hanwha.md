@@ -1,7 +1,7 @@
 ---
 pageTitle: Hanwha Techwin
 slug: Camera Systems
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/hanwha/hanwha-logo.svg"
 tags:
   - co
   - gc

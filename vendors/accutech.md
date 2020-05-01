@@ -1,7 +1,7 @@
 ---
 pageTitle: Accutech
 slug: Healthcare Security Solutions
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/accutech/accutech.png"
 tags:
   - co
   - gc

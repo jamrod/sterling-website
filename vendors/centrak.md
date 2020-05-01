@@ -1,7 +1,7 @@
 ---
 pageTitle: CENTRAK
 slug: Real-Time Location System
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/centrak/CenTrak-Logo.webp"
 tags:
   - co
   - gc

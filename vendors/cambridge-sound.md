@@ -1,7 +1,7 @@
 ---
 pageTitle: Cambridge Sound Masking
 slug: Sound Masking Solutions
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/cambridge/Biamp_Logo_Black_Red-133x45.jpg"
 tags:
   - co
   - gc

@@ -1,7 +1,7 @@
 ---
 pageTitle: Ascom
 slug: Healthcare Communications
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/ascom/ascom-logo.svg"
 tags:
   - co
   - gc

@@ -1,7 +1,7 @@
 ---
 pageTitle: Vivitek
 slug: Projectors, TVs, Digital Signage
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/vivitek/vivitek_logo_dark-1-1.png"
 tags:
   - gc
   - co

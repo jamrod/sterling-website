@@ -1,7 +1,7 @@
 ---
 pageTitle: Zenitel
 slug: Crystal-Clear Audio Solutions
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/zenitel/zenitel-logo.png"
 tags:
   - gc
   - co

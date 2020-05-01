@@ -1,7 +1,7 @@
 ---
 pageTitle: Anacom Medtek
 slug: Helthcare Equipment and Accessories
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/anacom-medtek/anacom-medtek.png"
 tags:
   - gc
   - co

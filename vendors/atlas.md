@@ -1,7 +1,7 @@
 ---
 pageTitle: Atlas/IED
 slug: Mass Communication Solutions
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/atlas/atlas-logo.png"
 tags:
   - gc
   - co

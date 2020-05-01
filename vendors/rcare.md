@@ -1,6 +1,6 @@
 ---
 pageTitle: RCare
-slug: Reliable Wireless Nurse Call Solutions
+slug: Reliable Wireless Nurse Call
 logoLink: "/assets/img/rcare/rcare-logo-sm.png"
 tags:
   - co

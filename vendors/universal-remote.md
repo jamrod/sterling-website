@@ -1,7 +1,7 @@
 ---
 pageTitle: Universal Remote Control
 slug: AV and Conference Room Solutions
-logoLink: "/assets/img/default-image.svg"
+logoLink: "/assets/img/urc/logo-urc.png"
 tags:
   - gc
   - co
