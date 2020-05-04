@@ -6,5 +6,6 @@ tags:
   - co
   - gc
 link: "http://www.ascom.com/"
+sub: "true"
 date: 2020-05-01
 ---

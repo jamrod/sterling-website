@@ -7,14 +7,18 @@ date: 2020-01-01
 ---
 
 <p>
-  Based in Littlton CO and serving CO, WY, NM, and NE.
+  Based in Littlton CO and serving CO, WY and NM.
 </p>
 <p>
   Providing service and installation excellence for these Vendors.
 </p>
 <div class="flex-container-row space-between">
   {% for vendor in collections.co %}
-  <a href="{{ vendor.data.link }}" class="vendor-links" target="blank">
+    {% if vendor.data.sub == "true" %}
+      <a href="{{ vendor.url }}" class="vendor-links" >
+    {% else %}
+      <a href="{{ vendor.data.link }}" class="vendor-links" target="blank">
+    {% endif %}
     <div class=" vendor-container centered">
       <div class="centered top">
         <h3>
