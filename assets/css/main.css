@@ -57,12 +57,16 @@ header {
   margin: 0;
   border-bottom: 1px solid black;
 }
+
+#tag-line {
+  font-style: italic;
+  text-align: center;
+}
+
 .nav {
-  /* padding: 4px 0; */
   align-self: flex-start;
-  width: 25%;
+  width: 100%;
   min-height: 25px;
-  /* border-bottom: 1px solid rgb(55, 55, 55); */
   justify-content: flex-start;
 }
 
@@ -222,6 +226,7 @@ li {
 @media screen and (max-width: 800px) {
   .nav,
   #top-nav,
+  #tag-line,
   footer {
     font-size: x-small;
   }
