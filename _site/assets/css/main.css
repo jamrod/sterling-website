@@ -174,9 +174,9 @@ header {
 .vendor-container {
   display: grid;
   grid-template-columns: 1;
-  grid-template-rows: 1fr 3fr 1fr;
+  grid-template-rows: 2fr 1fr;
   padding: 20px;
-  height: 270px;
+  height: 200px;
 }
 
 .top {
@@ -184,12 +184,13 @@ header {
 }
 
 .bottom {
-  grid-row: 3;
+  grid-row: 2;
+  align-self: bottom;
 }
 
 .logo-pic {
   width: 200px;
-  max-height: 140px;
+  max-height: 130px;
 }
 
 .vendor-links {
