@@ -243,6 +243,11 @@ li {
     height: 200px;
   }
 
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
   .image-container {
     width: 300px;
     height: 195px;
