@@ -1,16 +1,21 @@
-<header class="flex-container-row space">
-    <a href="/">
-        <img alt="Sterling Logo" src="/assets/img/SterlingLogo.png"/>
-    </a>
-    <span id="tag-line">Bringing Technologies Together for Your Total Communication Solution</span>
+<header>
+    <div class="container-fluid flex-container-row space">
+        <div class="container-fluid">
+            <a href="/">
+                <img alt="Sterling Logo" class="img-fluid" src="/assets/img/SterlingLogo_onAlphaDarkened.png"/>
+            </a>
+        </div>
 
-    <div id="top-nav">
-        {% for nav in collections.top-nav %}
-            {% if page.url contains nav.data.flag %}
-                <a href="{{nav.url}}" class="top-nav-item selected">{{nav.data.alttitle}}</a>
-            {% else %}
-                <a href="{{nav.url}}" class="top-nav-item">{{nav.data.alttitle}}</a>
-            {% endif %}
-        {% endfor %}
+
+        <div class="container-fluid flex-container-column centered" id="region-label">
+            {% for nav in collections.top-nav %}
+                {% if page.url contains nav.data.flag %}
+                    <span>{{nav.data.alttitle}}</span>
+
+                {% endif %}
+            {% endfor %}
+        </div>
+
     </div>
+    <span class="flex-container-column centered" id="tag-line">Bringing Technologies Together for Your Total Communication Solution</span>
 </header>

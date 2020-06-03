@@ -1,6 +1,6 @@
 ---
 pageTitle: Hanwha Techwin
-slug: Camera Systems
+slug: Samsung IP Camera Systems
 logoLink: "/assets/img/hanwha/hanwha-logo.svg"
 tags:
   - co

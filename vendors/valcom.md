@@ -1,6 +1,6 @@
 ---
 pageTitle: Valcom
-slug: Paging and Intercom
+slug: IP Paging & Intercom
 logoLink: "/assets/img/valcom/V-logo-icon.png"
 tags:
   - co
