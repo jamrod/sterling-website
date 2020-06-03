@@ -1,6 +1,6 @@
 ---
 pageTitle: LG
-slug: Life's Good
+slug: Healthcare & Commercial TVs
 logoLink: "/assets/img/lg/lg-logo.jpg"
 tags:
   - gc
