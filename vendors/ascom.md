@@ -1,6 +1,6 @@
 ---
 pageTitle: Ascom
-slug: Healthcare Communications
+slug: Healthcare Mobility Communications
 logoLink: "/assets/img/ascom/ascom-logo.svg"
 tags:
   - co
