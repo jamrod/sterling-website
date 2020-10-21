@@ -44,8 +44,11 @@ footer {
 }
 
 #home-page {
+  display: grid;
+  grid-template-columns: 1 fr;
+  grid-template-rows: 5% 55% 20% 20%;
   width: 100%;
-  height: 800px;
+  min-height: 800px;
   margin: 0 auto;
   padding: 0%;
   background-image: url(/assets/img/BigPic.png);
@@ -53,16 +56,41 @@ footer {
   background-repeat: no-repeat;
 }
 
-#home-page-text {
-  padding-top: 10%;
+#tag-line {
+  grid-row: 1;
   width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.wrapper {
+  grid-row: 2;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#landing-left {
+  grid-column: 1;
   color: white;
   text-align: center;
+  margin: 0 auto;
+  padding: 4%;
+  /* border: 1px rgb(50, 150, 180) solid; */
+  border-radius: 50%;
+  align-self: center;
+}
+#landing-right {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  grid-column: 2;
+  padding: 2%;
+  align-self: center;
 }
 
 #markets {
   width: 100%;
-  margin-top: 10%;
   text-align: center;
 }
 
@@ -81,11 +109,38 @@ footer {
 .icons {
   max-width: 100px;
 }
-/* 
-.container {
-  max-width: 90%;
-  margin: 5px;
-} */
+
+#select-region-label {
+  width: 100%;
+  background-color: rgb(50, 150, 180);
+  padding: 1%;
+  text-align: center;
+}
+
+#big-region-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+.region-button {
+  text-align: center;
+  padding: 1%;
+}
+.rm-button {
+  grid-column: 1;
+  background-image: url(/assets/img/icons/icons8-mountain-64.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gc-button {
+  grid-column: 2;
+  background-image: url(/assets/img/icons/icons8-beach-80.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
 h1 h2 {
   font-family: "Oswald", sans-serif;
@@ -106,6 +161,7 @@ a:hover {
 #tag-line {
   font-style: italic;
   text-align: center;
+  color: white;
 }
 
 .nav {
@@ -123,43 +179,6 @@ a:hover {
   color: black;
   background-color: white;
   border-bottom: 1px solid red;
-}
-
-.image-container {
-  width: 100%;
-  height: auto;
-  /* width: 700px;
-  height: 500px; */
-  margin: 20px;
-}
-
-.inner-container {
-  width: 100%;
-  height: auto;
-  /* width: 700px; */
-  /* height: 500px; */
-  display: flex;
-  flex-direction: column;
-}
-
-.landing-pic {
-  /* width: 700px; */
-  position: absolute;
-  z-index: -1;
-}
-
-.label {
-  z-index: 1;
-  color: White;
-  text-align: center;
-}
-
-#region-head {
-  width: 100%;
-  background-color: silver;
-  color: white;
-  margin: 0 auto;
-  padding: 0;
 }
 
 .article {
