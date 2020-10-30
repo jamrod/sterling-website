@@ -1,6 +1,10 @@
 body {
+  width: 100%;
+  height: 100%;
   background-color: white;
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -12,6 +16,10 @@ header {
   margin: 0;
   border-bottom: 1px solid black;
 }
+
+/* header img {
+  padding: 2% 0 0;
+} */
 
 #header-right {
   padding: 1%;
@@ -94,7 +102,8 @@ footer {
   text-align: center;
   background-color: #184eab;
   color: white;
-  padding: 2%;
+  padding: 2% 0;
+  margin: 0;
 }
 
 .market-text {
@@ -104,7 +113,9 @@ footer {
 }
 
 #market-icons {
-  padding: 1%;
+  max-width: 100%;
+  padding: 1% 0;
+  margin: 0;
 }
 
 .icons {
