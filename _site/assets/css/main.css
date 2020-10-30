@@ -17,10 +17,6 @@ header {
   border-bottom: 1px solid black;
 }
 
-/* header img {
-  padding: 2% 0 0;
-} */
-
 #header-right {
   padding: 1%;
 }
@@ -30,11 +26,11 @@ main {
 }
 
 footer {
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
-  left: 0;
+  left: 0; */
   width: 100%;
-  height: auto;
+  height: 30px;
   background-color: lightgray;
 }
 
